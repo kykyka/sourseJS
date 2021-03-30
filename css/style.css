@@ -1,6 +1,9 @@
-h2.first{
-    color: red;
+menu{
+    border: black 2px solid;
 }
-p.first{
-    color: blue;
+a.menu-item{
+    padding-right: 20px;
+}
+a.menu-item:hover{
+    background-color: #f5f350;
 }
