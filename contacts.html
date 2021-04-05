@@ -8,10 +8,59 @@
     <title>Contacts</title>
 </head>
 <body>
-    <menu>
-        <a class="menu-item" href="index.html">Home</a>
-        <a class="menu-item" href="about.html">About Us</a>
-        <a class="menu-item" href="contacts.html">Contacts</a>
-    </menu>
+    <div class="content">
+        <header>
+            <div class="title">
+                <h1>JavaScript</h1><h2>Lessons 1-2</h2>
+            </div>
+            <ul class="menu">
+                <a class="menu-item" href="index.html"><li class="menu-item">Home</li></a>
+                <a class="menu-item" href="about.html"><li class="menu-item">About Us</li></a>
+                <a class="menu-item" href="contacts.html"><li class="menu-item">Contacts</li></a>
+            </ul>
+        </header>
+        <table>
+            <tr>
+                <th>Position</th>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Director</td>
+                <td>Anna</td>
+                <td>James</td>
+                <td>544 664 954 11</td>
+                <td rowspan="3">123@gmail.com</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Manager</td>
+                <td>John</td>
+                <td>Jackson</td>
+                <td>555 855 224 25</td>
+            </tr>
+            <tr>
+                <td>Bill</td>
+                <td>Smith</td>
+                <td>554 115 515 14</td>
+            </tr>
+            <tr>
+                <td class="footer" colspan="5">OR Call on owr hotline</td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <ul class="footer-nav">
+            <li class="footer-menu-item"><a href="index.html">Home</a></li>
+            <li class="footer-menu-item"><a href="contacts.html">Contacts</a></li>
+            <li class="footer-menu-item"><a href="about.html">About Us</a></li>
+        </ul>
+        <ul class="footer-contact">
+            <li class="footer-menu-item"><a href="tel:55585522425">555 855 224 25</a></li>
+            <li class="footer-menu-item"><a href="tel:55411551514">554 115 515 14</a></li>
+            <li class="footer-menu-item"><a href="tel:54466495411">544 664 954 11</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
