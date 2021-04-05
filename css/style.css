@@ -1,9 +1,1 @@
-menu{
-    border: black 2px solid;
-}
-a.menu-item{
-    padding-right: 20px;
-}
-a.menu-item:hover{
-    background-color: #f5f350;
-}
+body{background-image: url(../img/img_girl.jpg)}
