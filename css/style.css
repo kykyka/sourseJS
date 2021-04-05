@@ -1,4 +1,4 @@
-table,th,td{
+/*table,th,td{
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
@@ -18,31 +18,16 @@ td.footer{
     color: red;
 }
 li.menu-item{
-    display: inline;
     padding: 10px 15px;
-    background-color: black;
     margin: 0px -2px;
 }
-li.menu-item:hover{
-    display: inline;
-    padding: 10px 15px;
-    background-color: #15be46;
-    margin: 0px -2px;
-}
-a{
-    color: white;
-    text-decoration: none;
-}
+
 body{
     background-image: url("/img/background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 70%;
     padding-left: 15%;
-}
-ul.menu{
-    width: 20%;
-    margin-left: 40%;
 }
 img.gallery-first{
     width: 33%;
@@ -90,4 +75,33 @@ footer{
     width: 70%;
     height: 80px;
     padding-left: 15%;
+}*/
+li{
+    float: left;
+    padding: 10px 16px;
+    display: block;
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+    text-decoration: none;
+    background: #444;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+}
+.swiper-container {
+  width: 600px;
+  height: 300px;
+}
+img.slider-image{
+    width: 600px;
+    height: 300px;
 }
